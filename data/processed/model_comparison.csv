@@ -1,0 +1,8 @@
+model,CV ROC-AUC,CV std,test ROC-AUC,test accuracy,precision,recall,F1,tuning time (s)
+Logistic Regression,0.572,0.054,0.52,0.512,0.686,0.174,0.278,1.488
+Support Vector Machine,0.559,0.062,0.521,0.529,0.601,0.374,0.461,2.036
+K-Nearest Neighbors,0.557,0.04,0.551,0.494,0.551,0.323,0.407,0.169
+Random Forest,0.522,0.044,0.565,0.492,0.599,0.171,0.266,2.946
+Decision Tree,0.48,0.065,0.551,0.575,0.594,0.666,0.628,0.121
+Baseline: majority class,,,0.5,0.461,,,,
+Baseline: persistence,,,0.486,0.515,,,,
